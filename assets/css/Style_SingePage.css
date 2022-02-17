@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+/* Font Face */
+
+@font-face {
+  font-family: 'Signika';
+  src: url('fonts/Signika-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Signika';
+  src: url('fonts/Signika-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* General Style */
+
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Text Style */
+
+h1 {
+	font-family: 'Signika';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 3rem;
+	color: black;
+}
+
+h2 {
+	font-family: 'Signika';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 2.5rem;
+	color: black;
+}
+
+h3 {
+	font-family: 'Signika';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 2rem;
+	color: black;
+  margin: 30px 0 10px;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12pt;
+	color: 000;
+	line-height: 20pt;
+}
+
+ul, li{
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12pt;
+	color: 000;
+}
+
+/* Desktop Style */
+
+.contenitor {
+	padding: 0 8%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* Topnav Style */
+
+nav {
+	width: 100%;
+  position: relative;
+}
+
+#back_icon {
+	height: 48px;
+	width: 48px;
+	background-color: transparent;
+	position: fixed;
+	top: 91px;
+	left: 8%;
+}
+
+#hyperink_logo {
+  position: absolute;
+	top: 70px;
+	right: 0;
+	height: 90px;
+}
+
+/* Section Style */
+
+section {
+	padding: 150px 120px;
+}
+
+section img{
+  width: 100%;
+  margin: 20px 0;
+}
+
+#main_IMG {
+	width: 100%;
+}
+
+hr {
+	width: 100%;
+  margin-top: -10px;
+	margin-bottom: 20px;
+  color: #4646FF;
+	border-top: solid 1px #4646FF;
+}
+
+/* Preview Style */
+
+.body_box {
+  margin: 100px 0;
+	border: solid 1px rgba(70,70,255,0.50);
+  position: relative;
+}
+
+.preview_buttons {
+	width: 100%;
+  height: 100%;
+}
+
+.modifica {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -70px;
+	left: 0;
+	background-color: transparent;
+	border-radius: 50%;
+	border: none;
+  opacity: 0.7;
+  z-index: 5;
+}
+
+.modifica:hover {
+	opacity: 1;
+}
+
+.ellimina {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -70px;
+	right: 0;
+	background-color: transparent;
+	border-radius: 50%;
+	border: none;
+	opacity: 0.7;
+  z-index: 5;
+}
+
+.ellimina:hover {
+	opacity: 1;
+}
+
+.aggiungi_sezione {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 60px;
+	left: 8%;
+	background-color: white;
+	border-radius: 50%;
+	border: none;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.modifica_articolo {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 60px;
+	right: 8%;
+	background-color: white;
+	border-radius: 50%;
+	padding: 0px;
+	border: none;
+	cursor: pointer;
+  z-index: 5;
+}
+
+/* Short Desktop Style */
+
+@media screen and (max-width:1024px){
+
+  #back_icon {
+		top: 94px;
+	}
+
+	#hyperink_logo {
+		height: 80px;
+	}
+
+  section {
+  	padding: 150px 100px;
+  }
+}
+
+/* Tablet Portrait Style */
+
+@media screen and (max-width:960px){
+
+  #back_icon {
+		top: 74px;
+	}
+
+	#hyperink_logo {
+		height: 80px;
+    top: 50px;
+	}
+
+  section {
+  	padding: 150px 50px;
+  }
+
+  .aggiungi_sezione {
+  	left: 5%;
+  }
+
+  .modifica_articolo {
+  	right: 5%;
+  }
+}
+
+/* Tablet Portrait Style */
+
+@media screen and (max-width:768px){
+
+  .contenitor {
+  	padding: 0 5%;
+  }
+
+  #back_icon {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    z-index: 5;
+    border: solid 0.5px #4646FF;
+  	top: 56px;
+  	left: 5%;
+  }
+
+  #hyperink_logo {
+    position: absolute;
+  	top: 50px;
+  	right: 0;
+  	height: 60px;
+  }
+
+  section {
+  	padding: 100px 25px;
+  }
+}
+
+/* Mobile Style */
+
+@media screen and (max-width:425px){
+
+  h1 {
+  	font-size: 2.5rem;
+  }
+
+  h2 {
+  	font-size: 2rem;
+  }
+
+  h3 {
+  	font-size: 1.5rem;
+  }
+
+  p {
+  	font-size: 12pt;
+    text-align: justify;
+  }
+
+  ul, li{
+  	font-size: 10pt;
+  }
+
+  .contenitor {
+  	padding: 0 8%;
+  }
+
+  #back_icon {
+  	top: 56px;
+  	left: 8%;
+  }
+
+  section {
+  	padding: 120px 0px;
+  }
+}

@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+/* Font Face */
+
+@font-face {
+  font-family: 'Signika';
+  src: url('fonts/Signika-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Signika';
+  src: url('fonts/Signika-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* CSS Private Pages */
+
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: normal;
+	background-color: rgba(70,70,255,0.14);
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenitor {
+	max-width: 1440px;
+  margin: auto;
+  padding: 50px 10% 0;
+}
+
+input {
+	width: 100%;
+	float: left;
+  margin: 10px 0;
+  padding: 10px;
+	border: 1px solid rgba(0,0,0,0.5);
+  -webkit-appearance: none;
+  background-color: white;
+  color: black;
+}
+
+textarea {
+	width: 100%;
+  height: 200px;
+  margin: 10px 0;
+  padding: 10px;
+	border: 1px solid rgba(0,0,0,0.5);
+	resize: none;
+}
+
+.ck-editor__editable {
+	height: 400px;
+  padding: 10px;
+}
+
+[type='submit'] {
+	width: 100%;
+	float: left;
+	margin: 20px 0;
+  padding: 15px;
+	border: none;
+	color: rgba(255,247,247,1);
+	background-color: rgba(70,70,255,0.80);
+	cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s linear;
+}
+
+[type='submit']:hover {
+  color: rgba(255,255,255);
+	background-color: rgba(70,70,255,0.40);
+}
+
+/* Text Styles */
+
+header {
+	font-family: 'Signika';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+	font-family: 'Signika';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 26pt;
+	color: 000;
+}
+
+h3 {
+	font-family: 'Signika';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	color: 000;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12pt;
+	color: 000;
+	line-height: 16pt;
+}
+
+label {
+	font-family: 'Signika';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.3rem;
+	float: left;
+}
+
+/* Nav Style */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.nav-element {
+  height: 50px;
+}
+
+.nav-element img {
+  height: 100%;
+}
+
+/* Login Style */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login form {
+	width: 300px;
+  margin-top: 80px;
+}
+
+/* Area Privata Page */
+
+.articles-actions {
+  margin: 40px 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions-buttons {
+  width: 130px;
+  padding: 10px 0;
+	border: none;
+	color: rgba(255,247,247,1);
+	background-color: rgba(70,70,255,0.9);
+  border: 1px solid rgba(0,0,0,0.3);
+	cursor: pointer;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.actions-buttons:hover {
+  opacity: 1;
+}
+
+table {
+	width: 100%;
+	background-color: white;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
+
+th {
+	font-size: 1.5rem;
+	border: 1px solid rgba(70,70,255,0.80);
+	padding: 20px 15px;
+  text-align: left;
+}
+
+td {
+	font-size: 1rem;
+	border: 1px solid rgba(70,70,255,0.80);
+	padding: 15px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+.actions-post {
+	width: 100%;
+  padding: 5px;
+	font-size: 0.8rem;
+  color: black;
+  border: 1px solid rgba(0,0,0,0.3);
+	background-color: rgba(70,70,255,0.3);
+  opacity: 0.7;
+	cursor: pointer;
+}
+
+.actions-post:nth-child(2) {
+  margin-top: 10px;
+	background-color: rgba(255,0,0,0.3);
+}
+
+.actions-post:hover {
+	opacity: 1;
+}
+
+/* Create Page */
+
+#form_create {
+	width: 80%;
+  margin: 50px auto;
+}
+
+@media screen and (max-width:960px){
+
+  /* Area Privata Page */
+
+  .actions-buttons {
+    font-size: 0.8rem;
+  }
+
+  th {
+  	font-size: 1rem;
+  }
+
+  td {
+  	font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width:768px){
+
+  /* Area Privata Page */
+
+  .actions-buttons {
+    width: 100px;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  tr:nth-child(1) {
+    display: none;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before { content: "Titolo Articolo"; }
+  td:nth-of-type(2):before { content: "Categoria"; }
+  td:nth-of-type(3):before { content: "Creato il"; }
+  td:nth-of-type(4):before { content: "Actions"; }
+  }
+
+  /* Create Page */
+
+  #form_create {
+  	width: 100%;
+    margin: 50px auto;
+  }
+}
