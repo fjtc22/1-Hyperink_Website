@@ -20,11 +20,11 @@ Il progetto prevede la realizzazione delle seguenti pagine :
 
 ## Team
 
-Web Design : _Lorenzo Piazzi_
+Web Design : _[Lorenzo Piazzi](https://www.linkedin.com/in/lorenzopiazzi/)_
 
 Front-End Developer : _Franco Joel Ticona Chata_
 
-Back-End Developer : _Arianna Parisi - @Edward-Radical_
+Back-End Developer : _[Arianna Parisi](https://github.com/Edward-Radical)_
 
 ## Linguaggi & Tools
 
