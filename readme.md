@@ -4,6 +4,10 @@
 
 Sito vetrina della associazione culturale Hyperink, nato con lo scopo di trasmettere al pubblico tutti gli aggiornamenti del associazione e di tutti i suoi progetti in fase di sviluppo.
 
+> L'obbiettivo principale di questo progetto è quello di usare la semplicità nella progettazione cosi da poter trasmette il proprio messaggio nella maniera più efficace possibile
+
+## Struttura del Progetto
+
 Il progetto prevede la realizzazione delle seguenti pagine :
 
 1 - Landing Page : La quale prevede una pagina dalla quale poter raggiungere tutti gli articoli interni, la possibilità di raggiungere i patner, di inscriversi alla Newsletter e poter raggiungere pagine interno come il Manifesto e la privacy policy,
@@ -14,8 +18,6 @@ Il progetto prevede la realizzazione delle seguenti pagine :
 
 È possibile visitare il sito nel seguente link : http://www.hyperink.it
 
-> L'obbiettivo principale di questo progetto è quello di usare la semplicità nella progettazione cosi da poter trasmette il proprio messaggio nella maniera più efficace possibile
-
 ## Team
 
 Web Design : _Lorenzo Piazzi_
@@ -24,7 +26,7 @@ Front-End Developer : _Franco Joel Ticona Chata_
 
 Back-End Developer : _Arianna Parisi_
 
-### Linguaggi Utilizzati
+## Linguaggi & Tools
 
 1 - HTML5
 
