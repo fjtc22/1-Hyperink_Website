@@ -24,7 +24,7 @@ Web Design : _Lorenzo Piazzi_
 
 Front-End Developer : _Franco Joel Ticona Chata_
 
-Back-End Developer : _Arianna Parisi_
+Back-End Developer : _Arianna Parisi (@Edward-Radical)_
 
 ## Linguaggi & Tools
 
